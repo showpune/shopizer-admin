@@ -19,6 +19,11 @@ http://localhost:4200
 ## Build app
 ng build 
 
+## Build your own no-root image
+
+docker build -t shopizer-admin:latest -f Dockerfile-nonroot .
+
+
 ## Run docker images
 
 Assumes your backend runs on http://localhost:8080/api
